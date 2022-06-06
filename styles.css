@@ -80,6 +80,11 @@ body {
     text-decoration-line: underline;
 }
 
+.contact-info__header a {
+    color: inherit;
+    text-decoration-color: inherit;
+}
+
 .contact-info__sub-header {
     color: var(--secondary-text-color);
     margin-bottom: 30px;
@@ -129,6 +134,10 @@ body {
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
+}
+
+address {
+    font-style: inherit;
 }
 
 .intro {
