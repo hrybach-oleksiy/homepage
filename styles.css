@@ -168,6 +168,16 @@ body {
     text-align: justify;
 }
 
+.skills__list {
+    list-style: none;
+}
+
+.skills__item {
+    color: var(--secondary-text-color);
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
@@ -246,6 +256,7 @@ body {
 
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 20px;
 }
 
 .additional-info__languages {
