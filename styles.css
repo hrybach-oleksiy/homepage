@@ -80,6 +80,11 @@ body {
     text-decoration-line: underline;
 }
 
+.contact-info__header a {
+    color: inherit;
+    text-decoration-color: inherit;
+}
+
 .contact-info__sub-header {
     color: var(--secondary-text-color);
     margin-bottom: 30px;
@@ -131,6 +136,10 @@ body {
     border-color: var(--text-decoration-color);
 }
 
+address {
+    font-style: inherit;
+}
+
 .intro {
     display: flex;
     justify-content: start;
@@ -166,6 +175,16 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+}
+
+.skills__list {
+    list-style: none;
+}
+
+.skills__item {
+    color: var(--secondary-text-color);
+    margin-bottom: 15px;
+    font-size: 25px;
 }
 
 .experiences {
@@ -246,6 +265,7 @@ body {
 
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 20px;
 }
 
 .additional-info__languages {
